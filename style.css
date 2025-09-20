@@ -614,6 +614,10 @@ button {
         display: none;
     }
 
+    nav {
+        width: 75%;
+    }
+
     nav ul, nav button {
         display: none;
     }
@@ -649,7 +653,7 @@ button {
     .about {
         display: flex;
         flex-direction: column-reverse;
-        height: 140vh;
+        height: auto;
         justify-content: center;
         gap: 30px;
     }
@@ -669,7 +673,8 @@ button {
     }
 
     .tour {
-        height: 150vh;
+        height: auto;
+        padding: 20px 0;
     }
 
     .tour h1 {
@@ -681,7 +686,8 @@ button {
     }
 
     .destinations {
-        height: 280vh;
+        height: auto;
+        padding: 20px 0;
     }
 
     .destinations .popu {
@@ -727,7 +733,7 @@ button {
         margin: 0;
         position: absolute;
         z-index: 5;
-        top: 40px;
+        top: 90px;
     }
 
     body .testimonials {
@@ -741,6 +747,17 @@ button {
 
     body .testimonials h5 br {
         display: block;
+    }
+
+    body .contact {
+        height: auto;
+        padding: 20px 0;
+        display: flex;
+        flex-direction: column;
+    }
+
+    body .contact .contact-right h1 {
+        margin: 0;
     }
 
     body .contact .about-left {
